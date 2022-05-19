@@ -9,6 +9,8 @@ The assignment for this week builds on these concepts and techniques. We're goin
   - Save the classification report to a text file 
 
 ## 2. Methods
+This repository contains two scripts that performs classification of threat vs. non-threat language in posts from posts on the internet. 
+
 
 Labels in the classification report:
 - Non-threat = 0
