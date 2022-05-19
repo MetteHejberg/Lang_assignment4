@@ -35,3 +35,6 @@ To run the code you should:
   - I wrote the following in the command line to produce the results in ```out```: ```python src/TfidfVectorizer_nlp_classifier.py -r "tfidf_classification_report.txt"``` 
 
 ## 4. Discussion of results 
+The Tfidf vectorizer and logistic regression classifier performs significantly better on this classification task than the convolutional neural network. the cnn classifier only manages to learning something on the non-threat texts, resulting in an overall accuracy on the entire task of 50% which is chance level. The Tfidf vectorizer and logistic regression classifier ends with an overall accuracy of 76% with only a slightly better accuracy on the non-threat texts than the threat texts. 
+
+
