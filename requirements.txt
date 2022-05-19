@@ -1,1 +1,30 @@
+Import the followig libraries to run cnn_nlp_classifier.py:
+- os
+- sys
+- from tensorflow.keras.models import Sequential
+- from tensorflow.keras.layers import (Dense, Flatten,Conv1D, MaxPooling1D, Embedding)
+- from tensorflow.keras.preprocessing.text import Tokenizer
+- from tensorflow.keras.preprocessing import sequence
+- from sklearn.model_selection import train_test_split
+- from sklearn.metrics import classification_report
+- from sklearn.preprocessing import LabelEncoder
+- argparse
+- pandas
+- utils.classifier_utils
+- re
+- tqdm
+- unicodedata
+- contractions
+- from bs4 import BeautifulSoup 
+- nltk 
 
+Import the following libraries to run TfidfVectorizer_nlp_classifier.py:
+- os
+- sys
+- pandas
+utils.classifier_utils
+- from sklearn.model_selection import train_test_split
+- from sklearn.feature_extraction.text import TfidfVectorizer
+- from sklearn.linear_model import LogisticRegression
+- from sklearn import metrics
+- argparse
