@@ -26,7 +26,7 @@ import re
 import tqdm
 import unicodedata
 import contractions
-from bs4 import BeautifulSoup  # Good for working with .html and??
+from bs4 import BeautifulSoup  # Good for working with .html
 import nltk                    # package for tokenization 
 nltk.download('punkt')
 
@@ -62,7 +62,7 @@ def pre_process_corpus(docs):
 
 # let's load the data 
 def load_process_data():
-    filepath = os.path.join("..", "CDS-LANG", "toxic", "VideoCommentsThreatCorpus.csv")
+    filepath = os.path.join("in", "toxic", "VideoCommentsThreatCorpus.csv")
     data = pd.read_csv(filepath)
     # balance the data set
     data_balanced = clf.balance(data, 1000)
