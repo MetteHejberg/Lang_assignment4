@@ -19,7 +19,7 @@ This approach uses deep learning, which can, with enough data, yield accurate re
 
 The second script uses the ```tfidf vectorizer``` to create a numeric representation of the text, which is then fed through a logistic regression classifier. The classification report is also saved to ```out```
 
-The vectorizer assume the bag of words notion of language, where can be numerically represented however some information is lost such as positional information - we only keep the frequency of the words nothing about how the words relate to other words. However, it is a fast and easy way to create a numerical representation of a document which can yield very accurate results. 
+The vectorizer assume the bag of words notion of language. Language can be numerically represented however some information is lost such as positional information - we only keep the frequency of the words nothing about how the words relate to other words. However, it is a fast and easy way to create a numerical representation of a document which can yield very accurate results. 
 
 Labels in the classification reports:
 - Non-threat = 0
