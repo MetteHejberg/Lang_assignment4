@@ -10,8 +10,9 @@ The assignment for this week builds on these concepts and techniques. We're goin
 
 ## 2. Methods
 
-Non-threat = 0
-Threat = 1
+Labels in the classification report:
+- Non-threat = 0
+- Threat = 1
 
 ## 3.1 Usage ```CNN_nlp_classifier.py```
 To run the code you should:
