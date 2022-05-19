@@ -25,6 +25,8 @@ Labels in the classification reports:
 - Non-threat = 0
 - Threat = 1
 
+Get the data here: 
+
 ## 3.1 Usage ```CNN_nlp_classifier.py```
 To run the code you should:
 - Pull this repository with this folder structure 
