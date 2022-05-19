@@ -14,9 +14,8 @@ from tensorflow.keras.preprocessing import sequence
 
 # scikit-learn
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import (confusion_matrix, 
-                            classification_report)
-from sklearn.preprocessing import LabelBinarizer, LabelEncoder
+from sklearn.metrics import (classification_report)
+from sklearn.preprocessing import LabelEncoder
 
 # other packages
 import argparse
@@ -27,8 +26,6 @@ import tqdm
 import unicodedata
 import contractions
 from bs4 import BeautifulSoup  # Good for working with .html
-import nltk                    # package for tokenization 
-nltk.download('punkt')
 
 # initial function definitions
 # cleaning up the text
