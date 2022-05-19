@@ -8,7 +8,7 @@ import utils.classifier_utils as clf
 
 # Machine learning stuff
 from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn import metrics
 
@@ -17,7 +17,7 @@ import argparse
 # let's load and process the data 
 def load_process_data():
     # define path
-    filepath = os.path.join("..", "CDS-LANG", "toxic", "VideoCommentsThreatCorpus.csv")
+    filepath = os.path.join("in", "toxic", "VideoCommentsThreatCorpus.csv")
     # read data as pandas data frame
     data = pd.read_csv(filepath)
     # create balanced data
