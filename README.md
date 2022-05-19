@@ -21,8 +21,8 @@ To run the code you should:
 - Install the packages mentioned in ```requirements.txt```
 - Make sure the ```utils``` folder is placed inside the ```src``` folder
 - Set your current working directory to the level about ```src```
-- To run the code, write in the command line: ```python src/CNN_nlp_classifier.py -r "report name" + argparse``` 
-  - what I wrote in the command line to produce the results 
+- To run the code, write in the command line: ```python src/cnn_nlp_classifier.py -e "number of epochs of the model -b "the batch size of the model" -r "cnn_classification_report.txt"```
+  - I wrote the following in the command line to produce the results in ```out```: ```python src/cnn_nlp_classifier.py -e 20 -b 32 -r "cnn_classification_report.txt"```
 
 ## 3.2 Usage ```TfidfVectorizer_nlp_classifier.py```
 To run the code you should:
@@ -32,5 +32,6 @@ To run the code you should:
 - Make sure the ```utils``` folder is placed inside the ```src``` folder
 - Set your current working directory to the level about ```src```
 - To run run the code, write in the command line: ```python src/CNN_nlp_classifier.py -r "report name"```
+  - I wrote the following in the command line to produce the results in ```out```: ```python src/TfidfVectorizer_nlp_classifier.py -r "tfidf_classification_report.txt"``` 
 
 ## 4. Discussion of results 
