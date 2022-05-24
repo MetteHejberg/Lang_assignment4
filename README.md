@@ -25,7 +25,7 @@ Labels in the classification reports:
 - Non-threat = 0
 - Threat = 1
 
-Get the data here: 
+Get the data here: https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf
 
 ## 3.1 Usage ```CNN_nlp_classifier.py```
 To run the code you should:
