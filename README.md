@@ -40,7 +40,7 @@ To run the code you should:
 ## 3.2 Usage ```TfidfVectorizer_nlp_classifier.py```
 To run the code you should:
 - Pull this repository with this folder structure
-- Place the data in ```in```
+- Place the data in a folder called ```toxic``` in ```in```
 - Install the packages mentioned in ```requirements.txt```
 - Make sure the ```utils``` folder is placed inside the ```src``` folder
 - Set your current working directory to the level about ```src```
