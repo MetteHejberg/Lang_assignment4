@@ -22,7 +22,7 @@ Import the following libraries to run TfidfVectorizer_nlp_classifier.py:
 - os
 - sys
 - pandas
-utils.classifier_utils
+- utils.classifier_utils
 - from sklearn.model_selection import train_test_split
 - from sklearn.feature_extraction.text import TfidfVectorizer
 - from sklearn.linear_model import LogisticRegression
